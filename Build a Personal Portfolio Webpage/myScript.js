@@ -7,7 +7,7 @@ window.onload= function() {
 
         items.forEach(function(a) {
             var itemTop = a.offsetTop;
-            if(top>=itemTop) {
+            if(top>=itemTop-200) {
                 currentId = "#"+a.getAttribute("id");
             }
             else {
