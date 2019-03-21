@@ -22,8 +22,7 @@ window.onload=function() {
 
 
     /*进行按钮时间绑定*/
-    var random = document.getElementsByClassName("random")[0];
-    random.addEventListener("click",function() {
+    function loop() {
 
         var xhr = new XMLHttpRequest();
         xhr.open("get","https://v1.hitokoto.cn/?encode=json");
@@ -37,13 +36,16 @@ window.onload=function() {
         xhr.send(null);
 
         /*进行页面颜色的改变*/
-        wrapper.style.backgroundColor = `rgb(${getRandom(0,200)},${getRandom(0,200)},${getRandom(0,200)})`;
+        wrapper.style.backgroundColor = `rgb(${getRandom(0,150)},${getRandom(0,150)},${getRandom(0,150)})`;
 
-    },false);
+    }
+    var random = document.getElementsByClassName("random")[0];
+    random.addEventListener("click",loop,false);
 
     function getRandom(min,max) {
         return Math.floor(Math.random()*(max-min+1))+min;
     }
-};
 
+    setInterval(loop,5000);
+};
 
