@@ -15,7 +15,7 @@ window.onload=function() {
             var sentence1 = data["hitokoto"];
 
             p1.innerHTML = sentence1;
-            author.innerHTML="<i>《" + data["from"] +"》</i>";
+            author.innerHTML="<i>————" + data["from"] +"</i>";
         }
     };
     xhr.send(null);
@@ -31,13 +31,13 @@ window.onload=function() {
             if(xhr.readyState ===4) {
                 var data = JSON.parse(xhr.responseText);
                 p1.innerHTML = data.hitokoto;
-                author.innerHTML = "<i>《" +data.from+ "</i>》";
+                author.innerHTML = "<i> ————" +data.from+ "</i>";
             }
         };
         xhr.send(null);
 
         /*进行页面颜色的改变*/
-        wrapper.style.backgroundColor = `rgb(${getRandom(0,255)},${getRandom(0,255)},${getRandom(0,255)})`;
+        wrapper.style.backgroundColor = `rgb(${getRandom(0,200)},${getRandom(0,200)},${getRandom(0,200)})`;
 
     },false);
 

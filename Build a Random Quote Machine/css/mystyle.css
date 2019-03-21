@@ -18,7 +18,7 @@ p {
 }
 
 p:nth-child(1) {
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 /*p:nth-child(2) {*/
@@ -30,7 +30,7 @@ p:nth-child(1) {
 .content {
     color: white;
 
-    width: 500px;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
