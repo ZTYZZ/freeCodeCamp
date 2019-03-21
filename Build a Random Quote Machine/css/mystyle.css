@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Geyan';
-    src: url('../font/fzshjt.TTF');
+    src: url('../font/fzshjt.TTF'),url("../font/fzshjt-webfont.woff"),url("../font/fzshjt-webfont.woff2"),url("../font/fzshjt-webfont.eot") ;
     font-weight: normal;
     font-style: normal;
 }
