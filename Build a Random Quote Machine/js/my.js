@@ -52,7 +52,7 @@ window.onload=function() {
     /*进行分享页面的绑定*/
     document.querySelector(".share").addEventListener("mouseover",function() {
         var share = document.querySelector(".share a");
-        var content = "http://v.t.sina.com.cn/share/share.php?title="+document.getElementById("sentence1").innerHTML+"" +"%23每日鸡汤 %40天元pig";
+        var content = "http://v.t.sina.com.cn/share/share.php?title="+document.getElementById("sentence1").innerHTML+"" +"%23每日鸡汤%23 %40天元pig";
         console.log(content);
         share.setAttribute("href",content);
 
