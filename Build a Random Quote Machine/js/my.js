@@ -1,7 +1,6 @@
 window.onload=function() {
 
     var p1 = document.getElementById("sentence1");
-    var p2 = document.getElementById("sentence2");
     var wrapper = document.querySelector(".wrapper");
     var author = document.getElementById("from");
     var xhr = new XMLHttpRequest();
@@ -47,5 +46,18 @@ window.onload=function() {
     }
 
     setInterval(loop,5000);
+
+
+
+    /*进行分享页面的绑定*/
+    document.querySelector(".share").addEventListener("mouseover",function() {
+        var share = document.querySelector(".share a");
+        var content = "http://v.t.sina.com.cn/share/share.php?title="+document.getElementById("sentence1").innerHTML+"" +"%23每日鸡汤 %40天元pig";
+        console.log(content);
+        share.setAttribute("href",content);
+
+
+    });
+
 };
 

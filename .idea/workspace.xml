@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="445a972a-13b4-4510-ad84-f3a633f0ca48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Random Quote Machine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Random Quote Machine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Random Quote Machine/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Random Quote Machine/js/my.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+            <state relative-caret-position="364">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/font/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -34,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/js/my.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="474">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -51,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="364">
+              <caret line="14" column="88" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -91,10 +102,10 @@
         <option value="$PROJECT_DIR$/design a danmu app/js/danmuCSS3.js" />
         <option value="$PROJECT_DIR$/design a danmu app/js/Danmu.js" />
         <option value="$PROJECT_DIR$/Build a Random Quote Machine/js/test.js" />
-        <option value="$PROJECT_DIR$/Build a Random Quote Machine/index.html" />
         <option value="$PROJECT_DIR$/Build a Random Quote Machine/readme.md" />
-        <option value="$PROJECT_DIR$/Build a Random Quote Machine/js/my.js" />
         <option value="$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/Build a Random Quote Machine/index.html" />
+        <option value="$PROJECT_DIR$/Build a Random Quote Machine/js/my.js" />
       </list>
     </option>
   </component>
@@ -196,17 +207,36 @@
       <updated>1552290339381</updated>
       <workItem from="1552290342587" duration="11602000" />
       <workItem from="1552535466940" duration="11796000" />
-      <workItem from="1552702815705" duration="83628000" />
+      <workItem from="1552702815705" duration="91239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107026000" />
+    <option name="totallyTimeSpent" value="114637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24570674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31016043" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24570674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -224,7 +254,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -314,6 +344,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/font/fzshjt-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -325,24 +369,24 @@
     <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/js/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/js/my.js">
+    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/font/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="364">
+          <caret line="14" column="88" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/css/mystyle.css">
+    <entry file="file://$PROJECT_DIR$/Build a Random Quote Machine/js/my.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+        <state relative-caret-position="474">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,13 @@
     padding: 0;
 }
 
+a {
+    color:white;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+}
 .wrapper {
     display: flex;
     align-content: center;
