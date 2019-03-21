@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Geyan';
+    src: url('../font/fzshjt.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,11 +27,13 @@ p {
 
 p:nth-child(1) {
     font-size: 1.5rem;
+    font-family: Geyan, sans-serif;
 
 }
-/*p:nth-child(2) {*/
-    /*font-size: 16px;*/
-/*}*/
+p:nth-child(2) {
+    font-family: 宋体, sans-serif;
+    font-size: 16px;
+}
 /*p:nth-child(3) {*/
 
 /*}*/
@@ -37,6 +46,7 @@ p:nth-child(1) {
 }
 
 button {
+    font-family: Geyan;
     font-size: 1rem;
     padding: 10px;
     width: 100px;
