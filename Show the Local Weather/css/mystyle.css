@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding :0;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    margin: 20px;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #f3f3f3;
+
+}
+
+.today {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.forcast {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+footer p {
+    margin: 0;
+}
